@@ -6,7 +6,18 @@ Este repositório contém dois DAGs desenvolvidos com Apache Airflow para automa
 Estrutura dos DAGs
 ================
 
-![img.png](img.png)
+```
+airflow/
+├── dags/
+│ ├── alert_Data.py
+│ └── futebol_etl.py
+├── include/
+│ ├── sendEmail.py
+│ ├── selectData.py
+│ ├── extractFunction.py
+│ ├── transformFunction.py
+│ └── loadFunction.py
+```
 
 DAG: alert_Data
 ===========================
